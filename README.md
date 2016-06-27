@@ -1,1 +1,1 @@
-#[Blog](http://ridikuius.github.io)
+#[website](http://ridikuius.github.io)

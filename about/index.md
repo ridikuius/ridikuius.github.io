@@ -6,7 +6,7 @@ date: 2016-03-21
 comments: false
 ---
     
-<center><a href="https://github.com/ridikuius"><b>Ridikuius</b></a> Wangle.</center>
+<center><a href="https://github.com/ridikuius"><b>ridikuius</b></a> WYN.</center>
 
 ## 2016读书轨迹
 * 《白夜行》

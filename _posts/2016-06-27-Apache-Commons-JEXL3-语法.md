@@ -11,12 +11,13 @@ comments: true
 
 ## 概述
 
-这个参考分为以下章节：
-** [语法元素](#语法元素)
-** [常量](#常量)
-** [方法](#方法)
-** [操作符](#操作符)
-** [条件语句](#条件)
+### 这个参考分为以下章节：
+
+* [语法元素](#语法元素)
+* [常量](#常量)
+* [方法](#方法)
+* [操作符](#操作符)
+* [条件语句](#条件)
 
 如需JEXL语法的更多技术细节，你可以从[Parser.jjt](http://svn.apache.org/viewvc/commons/proper/jexl/trunk/src/main/java/org/apache/commons/jexl3/parser/Parser.jjt?view=markup)获取JEXL的[JavaCC](https://javacc.dev.java.net/)定义。
 

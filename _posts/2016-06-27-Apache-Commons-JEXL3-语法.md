@@ -1,3 +1,12 @@
+---
+layout: post
+title: "Apache Commons JEXL 语法"
+date: 2016-06-27
+excerpt: "Apache Commons JEXL 语法."
+tags: [java, JEXL, 语法]
+comments: true
+---
+
 # Apache Commons JEXL 语法
 ## 概述
 这个参考分为以下章节：

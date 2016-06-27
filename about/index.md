@@ -1,12 +1,12 @@
 ---
 layout: page
 title: 悦读
-tags: [about, Jekyll, theme, moon]
+tags: [悦读]
 date: 2016-03-21
 comments: false
 ---
     
-<center><a href="https://ridikuius.github.io"><b>W&J</b></a> Wangle.</center>
+<center><a href="https://github.com/ridikuius"><b>Ridikuius</b></a> Wangle.</center>
 
 ## 2016读书轨迹
 * 《白夜行》

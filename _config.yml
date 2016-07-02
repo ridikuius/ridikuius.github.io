@@ -37,7 +37,7 @@ disqus_shortname:   taylantatli
   #ad-client:
   #ad-slot:
 #bing-verify:
-#email:
+email:
 #twitter:            ridikuius0111
 #facebook:           username
 github:             ridikuius
@@ -53,7 +53,7 @@ github:             ridikuius
 #dribbble:          username
 #youtube:           username
 #soundcloud:        username
-weibo:             Wangle_OP
+#weibo:             Wangle_OP
 #flickr:            username
 #codepen:           username
 #keybase:           username

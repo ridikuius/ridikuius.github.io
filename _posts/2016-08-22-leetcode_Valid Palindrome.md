@@ -19,9 +19,8 @@ considering only alphanumeric characters and ignoring cases.
 
 ## Example
 
-"A man, a plan, a canal: Panama" is a palindrome.
-
-"race a car" is not a palindrome.
+`"A man, a plan, a canal: Panama"` is a palindrome.
+`"race a car" `is not a palindrome.
 {: .notice}
 
 ## Clarification
@@ -33,7 +32,7 @@ we define empty string as valid palindrome.
 {: .notice}
 
 ## Challenge
-O(n) time without extra memory.
+`O(n)` time without extra memory.
 {: .notice}
 
 ## 题解

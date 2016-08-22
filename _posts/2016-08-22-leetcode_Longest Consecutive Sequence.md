@@ -69,5 +69,5 @@ public int longestConsecutive(int[] num) {
 
 ## Notices
 
-**Watch out!** You can also add notices by appending `{: .notice}` to a paragraph.
+**Watch out!** You can also add notices by appending  to a paragraph.
 {: .notice}

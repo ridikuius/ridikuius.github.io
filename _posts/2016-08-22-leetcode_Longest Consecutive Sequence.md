@@ -13,21 +13,18 @@ leetcode: [Longest Consecutive Sequence | LeetCode OJ](https://leetcode.com/prob
 
 ## Problem Statement
 
-```
 Given an unsorted array of integers, find the length of the longest consecutive elements sequence.
-```
+{: .notice}
 
 ## Example
 
-```
 Given [100, 4, 200, 1, 3, 2], The longest consecutive elements sequence is [1, 2, 3, 4]. Return its length: 4.
-```
+{: .notice}
 
 ## Clarification
 
-```
 Your algorithm should run in O(n) complexity.
-```
+{: .notice}
 
 ## 题解
 
@@ -62,12 +59,9 @@ public int longestConsecutive(int[] num) {
 ## 源码分析
 
 首先使用 HashSet 建哈希表，然后遍历数组，依次往左往右搜相邻数，搜到了就从 `Set` 中删除。末尾更新最大值。
+{: .notice}
 
 ## 复杂度分析
 
 时间复杂度和空间复杂度均为 `O(n)`.
-
-## Notices
-
-**Watch out!** You can also add notices by appending  to a paragraph.
 {: .notice}

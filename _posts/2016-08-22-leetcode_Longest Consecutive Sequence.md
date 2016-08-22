@@ -61,12 +61,13 @@ public int longestConsecutive(int[] num) {
 
 ## 源码分析
 
-```
-首先使用 HashSet 建哈希表，然后遍历数组，依次往左往右搜相邻数，搜到了就从 Set 中删除。末尾更新最大值。
-```
+首先使用 HashSet 建哈希表，然后遍历数组，依次往左往右搜相邻数，搜到了就从 `Set` 中删除。末尾更新最大值。
 
 ## 复杂度分析
 
-```
-时间复杂度和空间复杂度均为 O(n).
-```
+时间复杂度和空间复杂度均为 `O(n)`.
+
+## Notices
+
+**Watch out!** You can also add notices by appending `{: .notice}` to a paragraph.
+{: .notice}

@@ -16,6 +16,7 @@ leetcode: [Word Ladder II | LeetCode OJ](https://leetcode.com/problems/word-ladd
 Given two words (beginWord and endWord), and a dictionary's word list, find all shortest transformation sequence(s) from beginWord to endWord, such that:
 1. Only one letter can be changed at a time
 2. Each intermediate word must exist in the word list
+{: .notice}
 
 ## Example
 
@@ -30,11 +31,13 @@ Return
     ["hit","hot","lot","log","cog"]
   ]
 ```
+{: .notice}
 
 ## Clarification
 
 All words have the same length.
 All words contain only lowercase alphabetic characters.
+{: .notice}
 
 ## 题解
 

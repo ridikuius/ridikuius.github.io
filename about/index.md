@@ -60,3 +60,4 @@ comments: false
 * 《Practical Common Lisp》
 * 《JAVA并发编程艺术》
 * 《编写可读代码的艺术》
+* 《effective java》 （第二遍）

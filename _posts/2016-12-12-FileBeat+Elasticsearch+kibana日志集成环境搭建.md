@@ -8,18 +8,28 @@ comments: true
 ---
 
 # FileBeat + Elasticsearch + kibana
+
 日志收集+搜索分析+可视化
+
 ## FileBeat
+
 ### 简介
+
 Filebeat是一个开源的文件收集器，主要用于获取日志文件，并把它们发送到logstash或elasticsearch。
+
 ### 安装
+
 #### 下载
+
 `https://www.elastic.co/downloads/beats/filebeat`
+
 #### 安装（windows）
+
 * `PS > cd 'D:\Filebeat'`
 * `PS C:\Program Files\Filebeat> PowerShell.exe -ExecutionPolicy UnRestricted -File .\install-service-filebeat.ps1`
 
 #### 配置
+
 Filebeat的配置文件是./filebeat/filebeat.yml，遵循YAML语法。具体可以配置如下几个项目：
 
 *   Filebeat
@@ -68,7 +78,9 @@ Filebeat的部分主要定义prospector的列表，定义监控哪里的日志�
 ```
 
 ## Elasticsearch
+
 ### 简介
+
 http://es.xiaoleilu.com/index.html
 Elasticsearch是一个基于[Apache Lucene(TM)](https://lucene.apache.org/core/)的开源搜索引擎。
 Elasticsearch不仅仅是Lucene和全文搜索，我们还能这样去描述它：
@@ -77,19 +89,30 @@ Elasticsearch不仅仅是Lucene和全文搜索，我们还能这样去描述它�
 *   可以扩展到上百台服务器，处理PB级结构化或非结构化数据
 
 ### 安装
+
 #### 下载
+
 `https://www.elastic.co/downloads/elasticsearch`
+
 #### 配置
+
 ##### 绑定的IP地址
+
 设置绑定的ip地址，可以是ipv4或ipv6的，默认为0.0.0.0
 `network.host: ["0.0.0.0"]`
+
 ##### 交互的IP地址
+
 设置其它节点和该节点交互的ip地址，如果不设置它会自动判断，值必须是个真实的ip地址。
-`network.publish_host: ["189.168.0.1"]`
+`network.publish_host: ["192.168.0.1"]`
+
 #### 启动（windows）
+
 * `cd d:\elasticsearch`
 * `.\bin\elasticsearch`
+
 #### 访问`localhost:9200`验证启动成功
+
 ```
 name———Elasticsearch实例的名字，默认情况下它将从名字列表中随机选择一个，其设置是在config/elasticsearch.yml文件中；
 
@@ -103,23 +126,33 @@ lucene_version表示Elasticsearch所基于的Lucene的版本；
 
 tagline———包含了Elasticsearch的第一个tagline:"You Know, for Search"。
 ```
+
 #### 将elasticsearch安装为服务
+
 `d:\elasticsearch\bin>elasticsearch-service install`
 
 ## kibana
+
 ### 简介
+
 Kibana是一个基于浏览器页面的Elasticsearch前端展示工具。Kibana全部使用HTML语言和Javascript编写的。
+
 ### 安装
+
 #### 下载
+
 `https://www.elastic.co/downloads/kibana`
+
 #### 解压并启动（windows）
+
 * `CD d:\kibana`
 * `.\bin\kibana`
+
 #### 访问`localhost:5601`验证启动成功
-![](index_files/767d6213-97c2-4670-b830-b77fa4d1c37c.png)
 
 
 ## 检索
+
 ### 全文搜索
 
 在搜索栏输入debug，会返回所有字段值中包含debug的文档

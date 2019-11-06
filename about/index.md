@@ -7,6 +7,13 @@ comments: false
 ---
     
 <center><a href="https://github.com/ridikuius"><b>ridikuius</b></a> WYN.</center>
+## 2018读书轨迹
+* 《孽子》
+* 《纽约客》
+* 《台北人》
+* 《我是猫》
+* 《御伽草纸》
+
 
 ## 2016读书轨迹
 * 《白夜行》

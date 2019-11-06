@@ -7,6 +7,7 @@ comments: false
 ---
     
 <center><a href="https://github.com/ridikuius"><b>ridikuius</b></a> WYN.</center>
+
 ## 2018读书轨迹
 * 《孽子》
 * 《纽约客》
